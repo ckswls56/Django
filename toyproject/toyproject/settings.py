@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    # 'rest_framework_simplejwt', 대신 pip install djangorestframework-simplejwt로 설치
+    'rest_framework_simplejwt',
+    
+    # pip install djangorestframework-simplejwt로 설치
+
     'api',
     'users',
 ]
